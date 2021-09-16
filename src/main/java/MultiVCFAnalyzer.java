@@ -271,7 +271,7 @@ public class MultiVCFAnalyzer {
 				//insert Ns at not handled sites, which are left out by GATK
 				lastPos1based=currPos1based;
 			
-				currPos1based = Integer.parseInt(cols[1]);
+				currPos1based = Integer.parseInt(cols[0]);
 				
 				
 				if(currPos1based-lastPos1based!=1)
